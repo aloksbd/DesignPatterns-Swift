@@ -46,3 +46,22 @@ print("shyam (e,rb,l2) benefits",shyam.benefits)
 print("hari (m,ra,l2) benefits",hari.benefits)
 print("sita (m,rb,l1) benefits",sita.benefits)
 print("ram (e,ra,l1) bonus",ram.bonus)
+
+//-----factory
+
+print("----factory----")
+
+if let p1 = FighterFactory().getFighter(weaponRange: "short"){
+    if let p2 = FighterFactory().getFighter(weaponRange: "long"){
+
+        print(p1.name, p1.weapon,p1.health)
+        print(p2.name,p2.weapon,p2.health)
+    }
+}
+
+
+
+
+
+
+

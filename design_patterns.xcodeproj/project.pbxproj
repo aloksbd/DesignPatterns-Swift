@@ -11,6 +11,7 @@
 		0B304B62204E8D99003EB6FD /* StrategyPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B304B61204E8D99003EB6FD /* StrategyPattern.swift */; };
 		0B304B64204E920E003EB6FD /* ObserverPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B304B63204E920E003EB6FD /* ObserverPattern.swift */; };
 		0B304B66204E9A95003EB6FD /* DecoratorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B304B65204E9A95003EB6FD /* DecoratorPattern.swift */; };
+		0B9DBC5D2057DFF300D07998 /* FactoryPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9DBC5C2057DFF300D07998 /* FactoryPattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		0B304B61204E8D99003EB6FD /* StrategyPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyPattern.swift; sourceTree = "<group>"; };
 		0B304B63204E920E003EB6FD /* ObserverPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverPattern.swift; sourceTree = "<group>"; };
 		0B304B65204E9A95003EB6FD /* DecoratorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorPattern.swift; sourceTree = "<group>"; };
+		0B9DBC5C2057DFF300D07998 /* FactoryPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryPattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				0B304B61204E8D99003EB6FD /* StrategyPattern.swift */,
 				0B304B63204E920E003EB6FD /* ObserverPattern.swift */,
 				0B304B65204E9A95003EB6FD /* DecoratorPattern.swift */,
+				0B9DBC5C2057DFF300D07998 /* FactoryPattern.swift */,
 			);
 			path = design_patterns;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B304B64204E920E003EB6FD /* ObserverPattern.swift in Sources */,
+				0B9DBC5D2057DFF300D07998 /* FactoryPattern.swift in Sources */,
 				0B304B5B204E8D26003EB6FD /* main.swift in Sources */,
 				0B304B66204E9A95003EB6FD /* DecoratorPattern.swift in Sources */,
 				0B304B62204E8D99003EB6FD /* StrategyPattern.swift in Sources */,
