@@ -8,7 +8,7 @@
 
 import Foundation
 
-//-----strategy
+//MARK:strategy----------------
 
 print("----Strategy----")
 
@@ -17,8 +17,10 @@ let player2 = Hero()
 player1.setMove(move: WalkForward())
 player2.setMove(move: TurnLeft())
 
+
+
 print("\n\n")
-//-----observer
+//MARK:observer----------------
 
 print("----Observer----")
 
@@ -29,9 +31,11 @@ let bot1 = Ai(subject: weather, name: "Bot1")
 weather.state = "sunny"
 weather.state = "rainy"
 
-print("\n\n")
-//-----decorator
 
+
+
+print("\n\n")
+//MARK:decorator----------------
 print("----decorator----")
 
 let ram = RankB(level: RankA(level: Level1(department: Engineer())))
@@ -49,9 +53,11 @@ print("hari (m,ra,l2) benefits",hari.benefits)
 print("sita (m,rb,l1) benefits",sita.benefits)
 print("ram (e,ra,l1) bonus",ram.bonus)
 
-print("\n\n")
-//-----factory
 
+
+
+print("\n\n")
+//MARK:factory----------------
 print("----factory----")
 
 if let p1 = FighterFactory().getFighter(weaponRange: "short"){
@@ -63,8 +69,10 @@ if let p1 = FighterFactory().getFighter(weaponRange: "short"){
 }
 
 
+
+
 print("\n\n")
-//-----Composite
+//MARK:Composite----------------
 
 print("----Composite----")
 
@@ -81,6 +89,25 @@ let wifiSetting = Setting(title: "Wifi")
 
 let settings = SuperSetting(title: "Mobile Settings", settings: [audioSetting,videooSetting,wifiSetting])
 settings.getOptions()
+
+
+
+
+print("\n\n")
+//-----Singleton----------------
+
+print("----Singleton----")
+let Kamal = Farmer()
+let Sabin = ShopKeeper()
+let Sanam = Consumer()
+let store = Store.shared
+
+Kamal.addToStore()
+print(store.riceInKg)
+Sabin.addToShop()
+print(store.riceInKg)
+Sanam.consumeFromStore()
+print(store.riceInKg)
 
 
 
