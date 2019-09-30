@@ -36,7 +36,7 @@ class TurnLeft: CharacterMove{
     }
 }
 
-class Hero{
+class Character{
     var chMove : CharacterMove?
     
     func setMove(move: CharacterMove){

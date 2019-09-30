@@ -12,8 +12,8 @@ import Foundation
 
 print("----Strategy----")
 
-let player1 = Hero()
-let player2 = Hero()
+let player1 = Character()
+let player2 = Character()
 player1.setMove(move: WalkForward())
 player2.setMove(move: TurnLeft())
 
@@ -57,8 +57,8 @@ print("ram (e,ra,l1) bonus",ram.bonus)
 
 
 print("\n\n")
-//MARK:factory----------------
-print("----factory----")
+//MARK:FactoryMethod----------------
+print("----FactoryMethod----")
 
 if let p1 = FighterFactory().getFighter(weaponRange: "short"){
     if let p2 = FighterFactory().getFighter(weaponRange: "long"){
@@ -92,7 +92,6 @@ settings.getOptions()
 
 
 
-
 print("\n\n")
 //-----Singleton----------------
 
@@ -109,6 +108,18 @@ print(store.riceInKg)
 Sanam.consumeFromStore()
 print(store.riceInKg)
 
+
+
+print("\n\n")
+//-----AbstractFactoryPattern----------------
+
+print("----AbstractFactoryPattern----")
+
+let axe = MeleeHeroFactory().getHero()
+let windRanger = RangedHeroFactory().getHero()
+
+axe.attack()
+windRanger.attack()
 
 
 
