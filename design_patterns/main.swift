@@ -17,6 +17,7 @@ let player2 = Hero()
 player1.setMove(move: WalkForward())
 player2.setMove(move: TurnLeft())
 
+print("\n\n")
 //-----observer
 
 print("----Observer----")
@@ -28,6 +29,7 @@ let bot1 = Ai(subject: weather, name: "Bot1")
 weather.state = "sunny"
 weather.state = "rainy"
 
+print("\n\n")
 //-----decorator
 
 print("----decorator----")
@@ -47,6 +49,7 @@ print("hari (m,ra,l2) benefits",hari.benefits)
 print("sita (m,rb,l1) benefits",sita.benefits)
 print("ram (e,ra,l1) bonus",ram.bonus)
 
+print("\n\n")
 //-----factory
 
 print("----factory----")
@@ -58,6 +61,29 @@ if let p1 = FighterFactory().getFighter(weaponRange: "short"){
         print(p2.name,p2.weapon,p2.health)
     }
 }
+
+
+print("\n\n")
+//-----Composite
+
+print("----Composite----")
+
+let volume = Setting(title: "Volume")
+let stereo = Setting(title: "Stereo")
+let audioSetting = SuperSetting(title: "Audio",settings: [volume,stereo])
+
+let resolution = Setting(title: "Resolution")
+let supportingFormats = Setting(title: "Supporting Formats")
+let videooSetting = SuperSetting(title: "Video")
+videooSetting.add(settings: [resolution,supportingFormats])
+
+let wifiSetting = Setting(title: "Wifi")
+
+let settings = SuperSetting(title: "Mobile Settings", settings: [audioSetting,videooSetting,wifiSetting])
+settings.getOptions()
+
+
+
 
 
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043DADC02341C1D100137FCA /* CompositePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DADBF2341C1D100137FCA /* CompositePattern.swift */; };
 		0B304B5B204E8D26003EB6FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B304B5A204E8D26003EB6FD /* main.swift */; };
 		0B304B62204E8D99003EB6FD /* StrategyPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B304B61204E8D99003EB6FD /* StrategyPattern.swift */; };
 		0B304B64204E920E003EB6FD /* ObserverPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B304B63204E920E003EB6FD /* ObserverPattern.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		043DADBF2341C1D100137FCA /* CompositePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositePattern.swift; sourceTree = "<group>"; };
 		0B304B57204E8D26003EB6FD /* design_patterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = design_patterns; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B304B5A204E8D26003EB6FD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0B304B61204E8D99003EB6FD /* StrategyPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyPattern.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				0B304B63204E920E003EB6FD /* ObserverPattern.swift */,
 				0B304B65204E9A95003EB6FD /* DecoratorPattern.swift */,
 				0B9DBC5C2057DFF300D07998 /* FactoryPattern.swift */,
+				043DADBF2341C1D100137FCA /* CompositePattern.swift */,
 			);
 			path = design_patterns;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 				0B9DBC5D2057DFF300D07998 /* FactoryPattern.swift in Sources */,
 				0B304B5B204E8D26003EB6FD /* main.swift in Sources */,
 				0B304B66204E9A95003EB6FD /* DecoratorPattern.swift in Sources */,
+				043DADC02341C1D100137FCA /* CompositePattern.swift in Sources */,
 				0B304B62204E8D99003EB6FD /* StrategyPattern.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
