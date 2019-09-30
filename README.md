@@ -7,7 +7,10 @@ Design Patterns
 
 3.Deccrator Pattern
 
-4.Factory Pattern
+4.Factory Method Pattern
 
-5.Composite Patterns
+5.Composite Pattern
 
+6.Singleton Pattern
+
+7.Abstract Factory Pattern
