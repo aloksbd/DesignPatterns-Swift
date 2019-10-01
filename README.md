@@ -14,3 +14,5 @@ Design Patterns
 6.Singleton Pattern
 
 7.Abstract Factory Pattern
+
+8.Command Pattern

@@ -93,7 +93,7 @@ settings.getOptions()
 
 
 print("\n\n")
-//-----Singleton----------------
+//MARK:Singleton----------------
 
 print("----Singleton----")
 let Kamal = Farmer()
@@ -111,9 +111,9 @@ print(store.riceInKg)
 
 
 print("\n\n")
-//-----AbstractFactoryPattern----------------
+//MARK:AbstractFactory----------------
 
-print("----AbstractFactoryPattern----")
+print("----AbstractFactory----")
 
 let axe = MeleeHeroFactory().getHero()
 let windRanger = RangedHeroFactory().getHero()
@@ -122,6 +122,18 @@ axe.attack()
 windRanger.attack()
 
 
+
+print("\n\n")
+//MARK:Command----------------
+
+print("----Command----")
+
+let waiter = Waiter()
+let chef = Chef()
+waiter.take(order: FishOrder(chef: chef))
+waiter.take(order: MomoOrder(chef: chef))
+waiter.take(order: FishOrder(chef: chef))
+waiter.passOrderToChef()
 
 
 

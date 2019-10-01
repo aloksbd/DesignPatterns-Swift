@@ -10,6 +10,7 @@
 		043DADC02341C1D100137FCA /* CompositePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DADBF2341C1D100137FCA /* CompositePattern.swift */; };
 		043DADC2234202DA00137FCA /* SingletonPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DADC1234202DA00137FCA /* SingletonPattern.swift */; };
 		043DADC42342232100137FCA /* AbstractFactoryPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DADC32342232100137FCA /* AbstractFactoryPattern.swift */; };
+		04718143234316B600982A7D /* CommandPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04718142234316B600982A7D /* CommandPattern.swift */; };
 		0B304B5B204E8D26003EB6FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B304B5A204E8D26003EB6FD /* main.swift */; };
 		0B304B62204E8D99003EB6FD /* StrategyPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B304B61204E8D99003EB6FD /* StrategyPattern.swift */; };
 		0B304B64204E920E003EB6FD /* ObserverPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B304B63204E920E003EB6FD /* ObserverPattern.swift */; };
@@ -33,6 +34,7 @@
 		043DADBF2341C1D100137FCA /* CompositePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositePattern.swift; sourceTree = "<group>"; };
 		043DADC1234202DA00137FCA /* SingletonPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonPattern.swift; sourceTree = "<group>"; };
 		043DADC32342232100137FCA /* AbstractFactoryPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryPattern.swift; sourceTree = "<group>"; };
+		04718142234316B600982A7D /* CommandPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPattern.swift; sourceTree = "<group>"; };
 		0B304B57204E8D26003EB6FD /* design_patterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = design_patterns; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B304B5A204E8D26003EB6FD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0B304B61204E8D99003EB6FD /* StrategyPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyPattern.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				043DADBF2341C1D100137FCA /* CompositePattern.swift */,
 				043DADC1234202DA00137FCA /* SingletonPattern.swift */,
 				043DADC32342232100137FCA /* AbstractFactoryPattern.swift */,
+				04718142234316B600982A7D /* CommandPattern.swift */,
 			);
 			path = design_patterns;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				0B9DBC5D2057DFF300D07998 /* FactoryMethodPattern.swift in Sources */,
 				0B304B5B204E8D26003EB6FD /* main.swift in Sources */,
 				0B304B66204E9A95003EB6FD /* DecoratorPattern.swift in Sources */,
+				04718143234316B600982A7D /* CommandPattern.swift in Sources */,
 				043DADC02341C1D100137FCA /* CompositePattern.swift in Sources */,
 				043DADC2234202DA00137FCA /* SingletonPattern.swift in Sources */,
 				0B304B62204E8D99003EB6FD /* StrategyPattern.swift in Sources */,
