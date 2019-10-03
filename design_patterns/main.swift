@@ -36,8 +36,8 @@ print("\n\n")
 //MARK:decorator----------------
 print("----decorator----")
 
-let ram = RankB(level: RankA(level: Level1(department: Engineer())))
-let shyam = RankB(level: Level2(department: Engineer()))
+let ram = RankB(level: RankA(level: Level1(department: Developer())))
+let shyam = RankB(level: Level2(department: Developer()))
 let hari = RankA(level: Level2(department: Management()))
 let sita = RankB(level: Level1(department: Management()))
 
@@ -141,6 +141,10 @@ print(toya.areaOfRectangleWith(length: 10, height: 20, unit: .feet))
 
 
 
+print("\n\n")
+//MARK:Adapter----------------
+print("----Adapter----")
 
-
+let Paplu = Contractor()
+Paplu.buildHouse()
 

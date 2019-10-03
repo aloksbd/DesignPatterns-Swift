@@ -12,7 +12,7 @@ protocol Employee {
     var salary: Int {get}
 }
 
-class Engineer: Employee {
+class Developer: Employee {
     var salary: Int{
         get {
             return 1000
@@ -50,7 +50,7 @@ class Level2: EmployerDecorator{
     var salary: Int{
         get{
         switch department {
-        case is Engineer:
+        case is Developer:
             return department.salary + 500
         default:
             return department.salary + 700
