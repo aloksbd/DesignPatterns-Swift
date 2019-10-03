@@ -1,4 +1,7 @@
-Design Patterns
+Some swift codes while learning design patterns from https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc and https://medium.com/design-patterns-in-swift
+
+
+Design Patterns<br>
 
 
 1.Strategy pattern
@@ -16,3 +19,5 @@ Design Patterns
 7.Abstract Factory Pattern
 
 8.Command Pattern
+
+9.Adapter Pattern

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043CA9582345BDC00073C1ED /* AdapterPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043CA9572345BDC00073C1ED /* AdapterPattern.swift */; };
 		043DADC02341C1D100137FCA /* CompositePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DADBF2341C1D100137FCA /* CompositePattern.swift */; };
 		043DADC2234202DA00137FCA /* SingletonPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DADC1234202DA00137FCA /* SingletonPattern.swift */; };
 		043DADC42342232100137FCA /* AbstractFactoryPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DADC32342232100137FCA /* AbstractFactoryPattern.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		043CA9572345BDC00073C1ED /* AdapterPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterPattern.swift; sourceTree = "<group>"; };
 		043DADBF2341C1D100137FCA /* CompositePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositePattern.swift; sourceTree = "<group>"; };
 		043DADC1234202DA00137FCA /* SingletonPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonPattern.swift; sourceTree = "<group>"; };
 		043DADC32342232100137FCA /* AbstractFactoryPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryPattern.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				043DADC1234202DA00137FCA /* SingletonPattern.swift */,
 				043DADC32342232100137FCA /* AbstractFactoryPattern.swift */,
 				04718142234316B600982A7D /* CommandPattern.swift */,
+				043CA9572345BDC00073C1ED /* AdapterPattern.swift */,
 			);
 			path = design_patterns;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				043DADC42342232100137FCA /* AbstractFactoryPattern.swift in Sources */,
 				0B9DBC5D2057DFF300D07998 /* FactoryMethodPattern.swift in Sources */,
 				0B304B5B204E8D26003EB6FD /* main.swift in Sources */,
+				043CA9582345BDC00073C1ED /* AdapterPattern.swift in Sources */,
 				0B304B66204E9A95003EB6FD /* DecoratorPattern.swift in Sources */,
 				04718143234316B600982A7D /* CommandPattern.swift in Sources */,
 				043DADC02341C1D100137FCA /* CompositePattern.swift in Sources */,

@@ -9,7 +9,6 @@
 import Foundation
 
 //MARK:strategy----------------
-
 print("----Strategy----")
 
 let player1 = Character()
@@ -21,7 +20,6 @@ player2.setMove(move: TurnLeft())
 
 print("\n\n")
 //MARK:observer----------------
-
 print("----Observer----")
 
 let weather = Weather()
@@ -73,7 +71,6 @@ if let p1 = FighterFactory().getFighter(weaponRange: "short"){
 
 print("\n\n")
 //MARK:Composite----------------
-
 print("----Composite----")
 
 let volume = Setting(title: "Volume")
@@ -94,7 +91,6 @@ settings.getOptions()
 
 print("\n\n")
 //MARK:Singleton----------------
-
 print("----Singleton----")
 let Kamal = Farmer()
 let Sabin = ShopKeeper()
@@ -112,7 +108,6 @@ print(store.riceInKg)
 
 print("\n\n")
 //MARK:AbstractFactory----------------
-
 print("----AbstractFactory----")
 
 let axe = MeleeHeroFactory().getHero()
@@ -125,7 +120,6 @@ windRanger.attack()
 
 print("\n\n")
 //MARK:Command----------------
-
 print("----Command----")
 
 let waiter = Waiter()
@@ -135,6 +129,15 @@ waiter.take(order: MomoOrder(chef: chef))
 waiter.take(order: FishOrder(chef: chef))
 waiter.passOrderToChef()
 
+
+
+print("\n\n")
+//MARK:Adapter----------------
+print("----Adapter----")
+
+let toya = MathMaster()
+print(toya.areaOfRectangleWith(length: 10, height: 20, unit: .meter))
+print(toya.areaOfRectangleWith(length: 10, height: 20, unit: .feet))
 
 
 
