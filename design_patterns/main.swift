@@ -148,3 +148,12 @@ print("----Adapter----")
 let Paplu = Contractor()
 Paplu.buildHouse()
 
+
+
+print("\n\n")
+//MARK:Proxy----------------
+print("----Proxy----")
+
+let atmCard = ATM(accountNumber: "1234g", accountHolderName: "Bill Gates", amount: 30000000)
+atmCard.withdrawMoney(amount: 500000, pin: 2345)
+atmCard.withdrawMoney(amount: 500000, pin: 1234)
