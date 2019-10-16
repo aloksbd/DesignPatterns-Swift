@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0435A5E82356E78C00643630 /* BridgePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0435A5E72356E78C00643630 /* BridgePattern.swift */; };
 		043CA9582345BDC00073C1ED /* AdapterPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043CA9572345BDC00073C1ED /* AdapterPattern.swift */; };
 		043CA95A23461A280073C1ED /* FacadePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043CA95923461A280073C1ED /* FacadePattern.swift */; };
 		043DADC02341C1D100137FCA /* CompositePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DADBF2341C1D100137FCA /* CompositePattern.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0435A5E72356E78C00643630 /* BridgePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgePattern.swift; sourceTree = "<group>"; };
 		043CA9572345BDC00073C1ED /* AdapterPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterPattern.swift; sourceTree = "<group>"; };
 		043CA95923461A280073C1ED /* FacadePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadePattern.swift; sourceTree = "<group>"; };
 		043DADBF2341C1D100137FCA /* CompositePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositePattern.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				043CA9572345BDC00073C1ED /* AdapterPattern.swift */,
 				043CA95923461A280073C1ED /* FacadePattern.swift */,
 				044828A023470FB90073108D /* ProxyPattern.swift */,
+				0435A5E72356E78C00643630 /* BridgePattern.swift */,
 			);
 			path = design_patterns;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				0B304B66204E9A95003EB6FD /* DecoratorPattern.swift in Sources */,
 				04718143234316B600982A7D /* CommandPattern.swift in Sources */,
 				043DADC02341C1D100137FCA /* CompositePattern.swift in Sources */,
+				0435A5E82356E78C00643630 /* BridgePattern.swift in Sources */,
 				043DADC2234202DA00137FCA /* SingletonPattern.swift in Sources */,
 				0B304B62204E8D99003EB6FD /* StrategyPattern.swift in Sources */,
 			);

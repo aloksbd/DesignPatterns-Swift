@@ -157,3 +157,18 @@ print("----Proxy----")
 let atmCard = ATM(accountNumber: "1234g", accountHolderName: "Bill Gates", amount: 30000000)
 atmCard.withdrawMoney(amount: 500000, pin: 2345)
 atmCard.withdrawMoney(amount: 500000, pin: 1234)
+
+
+
+print("\n\n")
+//MARK:Bridge----------------
+print("----Bridge----")
+
+print("\nLEVEL 1")
+let level1Bg = City(time: Morning())
+print("\nLEVEL 2")
+let level2Bg = City(time: Noon())
+print("\nLEVEL 3")
+let level3Bg = Mountain(time: Dusk())
+print("\nLEVEL 4")
+let level4Bg = Mountain(time: Night())
