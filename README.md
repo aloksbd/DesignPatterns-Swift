@@ -28,3 +28,5 @@ Design Patterns
 9.Adapter Pattern
 
 10.Facade Pattern
+
+11.Bridge Pattern
