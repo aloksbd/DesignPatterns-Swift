@@ -172,3 +172,15 @@ print("\nLEVEL 3")
 let level3Bg = Mountain(time: Dusk())
 print("\nLEVEL 4")
 let level4Bg = Mountain(time: Night())
+
+
+
+print("\n\n")
+//MARK:TemplateMethod----------------
+print("----TemplateMethod----")
+
+let laptop = Laptop()
+let desktop = Desktop()
+laptop.assembleDevice()
+print()
+desktop.assembleDevice()

@@ -30,3 +30,5 @@ Design Patterns
 10.Facade Pattern
 
 11.Bridge Pattern
+
+12.Template Method Pattern
