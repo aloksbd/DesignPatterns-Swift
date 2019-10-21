@@ -211,3 +211,20 @@ while iterator2.hasMore(){
     let student = iterator2.next()
     print(student.description)
 }
+
+
+
+
+print("\n\n")
+//MARK:State----------------
+print("----State----")
+
+let tv = TV()
+tv.volumeUpButtonClicked()
+tv.channelUpButtonClicked()
+tv.powerButtonClicked()
+tv.volumeUpButtonClicked()
+tv.channelDownButtonClicked()
+tv.channelUpButtonClicked()
+tv.volumeDownButtonClicked()
+tv.powerButtonClicked()

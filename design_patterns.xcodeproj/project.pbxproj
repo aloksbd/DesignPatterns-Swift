@@ -17,6 +17,7 @@
 		046A7848235837C9006399EB /* TemplateMethodPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046A7847235837C9006399EB /* TemplateMethodPattern.swift */; };
 		04718143234316B600982A7D /* CommandPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04718142234316B600982A7D /* CommandPattern.swift */; };
 		04935256235D6BD800E8CA1D /* IteratorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04935255235D6BD800E8CA1D /* IteratorPattern.swift */; };
+		04935258235DBF4000E8CA1D /* StatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04935257235DBF4000E8CA1D /* StatePattern.swift */; };
 		0B304B5B204E8D26003EB6FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B304B5A204E8D26003EB6FD /* main.swift */; };
 		0B304B62204E8D99003EB6FD /* StrategyPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B304B61204E8D99003EB6FD /* StrategyPattern.swift */; };
 		0B304B64204E920E003EB6FD /* ObserverPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B304B63204E920E003EB6FD /* ObserverPattern.swift */; };
@@ -47,6 +48,7 @@
 		046A7847235837C9006399EB /* TemplateMethodPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMethodPattern.swift; sourceTree = "<group>"; };
 		04718142234316B600982A7D /* CommandPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPattern.swift; sourceTree = "<group>"; };
 		04935255235D6BD800E8CA1D /* IteratorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteratorPattern.swift; sourceTree = "<group>"; };
+		04935257235DBF4000E8CA1D /* StatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePattern.swift; sourceTree = "<group>"; };
 		0B304B57204E8D26003EB6FD /* design_patterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = design_patterns; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B304B5A204E8D26003EB6FD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0B304B61204E8D99003EB6FD /* StrategyPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyPattern.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				0435A5E72356E78C00643630 /* BridgePattern.swift */,
 				046A7847235837C9006399EB /* TemplateMethodPattern.swift */,
 				04935255235D6BD800E8CA1D /* IteratorPattern.swift */,
+				04935257235DBF4000E8CA1D /* StatePattern.swift */,
 			);
 			path = design_patterns;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				04718143234316B600982A7D /* CommandPattern.swift in Sources */,
 				046A7848235837C9006399EB /* TemplateMethodPattern.swift in Sources */,
 				043DADC02341C1D100137FCA /* CompositePattern.swift in Sources */,
+				04935258235DBF4000E8CA1D /* StatePattern.swift in Sources */,
 				0435A5E82356E78C00643630 /* BridgePattern.swift in Sources */,
 				043DADC2234202DA00137FCA /* SingletonPattern.swift in Sources */,
 				0B304B62204E8D99003EB6FD /* StrategyPattern.swift in Sources */,

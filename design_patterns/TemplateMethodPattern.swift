@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Assembly {
+class Assembler {
     func assembleDevice(){
         getCasing()
         addRam()
@@ -28,7 +28,7 @@ class Assembly {
     func addBattery(){}
 }
 
-class Laptop: Assembly{
+class Laptop: Assembler{
     override func getCasing() {
         print("Casing for laptop")
     }
@@ -42,7 +42,7 @@ class Laptop: Assembly{
     }
 }
 
-class Desktop: Assembly{
+class Desktop: Assembler{
     override func getCasing() {
         print("CPU casing for desktop")
     }

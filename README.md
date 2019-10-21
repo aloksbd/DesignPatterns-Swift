@@ -34,3 +34,5 @@ Design Patterns
 12.Template Method Pattern
 
 13.Iterator Pattern
+
+14.State Pattern
