@@ -68,6 +68,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04935259235DC66900E8CA1D /* CreationalPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				0B9DBC5C2057DFF300D07998 /* FactoryMethodPattern.swift */,
+				043DADC1234202DA00137FCA /* SingletonPattern.swift */,
+				043DADC32342232100137FCA /* AbstractFactoryPattern.swift */,
+			);
+			path = CreationalPatterns;
+			sourceTree = "<group>";
+		};
+		0493525A235DC69C00E8CA1D /* StructuralPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				0B304B65204E9A95003EB6FD /* DecoratorPattern.swift */,
+				043DADBF2341C1D100137FCA /* CompositePattern.swift */,
+				043CA9572345BDC00073C1ED /* AdapterPattern.swift */,
+				043CA95923461A280073C1ED /* FacadePattern.swift */,
+				044828A023470FB90073108D /* ProxyPattern.swift */,
+				0435A5E72356E78C00643630 /* BridgePattern.swift */,
+			);
+			path = StructuralPatterns;
+			sourceTree = "<group>";
+		};
+		0493525B235DC6CE00E8CA1D /* BehavioralPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				0B304B61204E8D99003EB6FD /* StrategyPattern.swift */,
+				0B304B63204E920E003EB6FD /* ObserverPattern.swift */,
+				04718142234316B600982A7D /* CommandPattern.swift */,
+				046A7847235837C9006399EB /* TemplateMethodPattern.swift */,
+				04935255235D6BD800E8CA1D /* IteratorPattern.swift */,
+				04935257235DBF4000E8CA1D /* StatePattern.swift */,
+			);
+			path = BehavioralPatterns;
+			sourceTree = "<group>";
+		};
 		0B304B4E204E8D25003EB6FD = {
 			isa = PBXGroup;
 			children = (
@@ -88,21 +124,9 @@
 			isa = PBXGroup;
 			children = (
 				0B304B5A204E8D26003EB6FD /* main.swift */,
-				0B304B61204E8D99003EB6FD /* StrategyPattern.swift */,
-				0B304B63204E920E003EB6FD /* ObserverPattern.swift */,
-				0B304B65204E9A95003EB6FD /* DecoratorPattern.swift */,
-				0B9DBC5C2057DFF300D07998 /* FactoryMethodPattern.swift */,
-				043DADBF2341C1D100137FCA /* CompositePattern.swift */,
-				043DADC1234202DA00137FCA /* SingletonPattern.swift */,
-				043DADC32342232100137FCA /* AbstractFactoryPattern.swift */,
-				04718142234316B600982A7D /* CommandPattern.swift */,
-				043CA9572345BDC00073C1ED /* AdapterPattern.swift */,
-				043CA95923461A280073C1ED /* FacadePattern.swift */,
-				044828A023470FB90073108D /* ProxyPattern.swift */,
-				0435A5E72356E78C00643630 /* BridgePattern.swift */,
-				046A7847235837C9006399EB /* TemplateMethodPattern.swift */,
-				04935255235D6BD800E8CA1D /* IteratorPattern.swift */,
-				04935257235DBF4000E8CA1D /* StatePattern.swift */,
+				0493525B235DC6CE00E8CA1D /* BehavioralPatterns */,
+				0493525A235DC69C00E8CA1D /* StructuralPatterns */,
+				04935259235DC66900E8CA1D /* CreationalPatterns */,
 			);
 			path = design_patterns;
 			sourceTree = "<group>";
