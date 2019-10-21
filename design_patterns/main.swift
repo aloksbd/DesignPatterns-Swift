@@ -184,3 +184,30 @@ let desktop = Desktop()
 laptop.assembleDevice()
 print()
 desktop.assembleDevice()
+
+
+
+print("\n\n")
+//MARK:Iterator----------------
+print("----Iterator----")
+
+let student1 = Student(name: "Ram", room: "2A", rank: 3)
+let student2 = Student(name: "Sita", room: "2A", rank: 2)
+let student3 = Student(name: "Laxman", room: "2A", rank: 4)
+let student4 = Student(name: "Rawan", room: "2A", rank: 1)
+
+let class2AStudents = Students(students: [student1,student2,student3,student4])
+let iterator1 = AlphabeticIterator(students: class2AStudents)
+class2AStudents.setIterator(iterator: iterator1)
+print("---namewise---")
+while iterator1.hasMore(){
+    let student = iterator1.next()
+    print(student.description)
+}
+print("\n---rankwise---")
+let iterator2 = RankIterator(students: class2AStudents)
+class2AStudents.setIterator(iterator: iterator2)
+while iterator2.hasMore(){
+    let student = iterator2.next()
+    print(student.description)
+}

@@ -32,3 +32,5 @@ Design Patterns
 11.Bridge Pattern
 
 12.Template Method Pattern
+
+13.Iterator Pattern
